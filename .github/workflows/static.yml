@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # This should be the path to your project's build output folder
-          path: './dist' 
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
